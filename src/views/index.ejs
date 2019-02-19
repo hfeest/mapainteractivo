@@ -1,0 +1,18 @@
+<%- layout('layouts/main') %>
+
+<div id="map-template"></div>
+
+    <form class="tabla-ingreso" action="/action_page.php">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre de punto">
+    
+        <label for="latitud">Latitud</label>
+        <input type="text" id="lat" name="latitud" placeholder="Your last name..">
+    
+        <label for="longitud">Longitud</label>
+        <input type="text" id="lng" name="longitud" placeholder="Your last name..">
+      
+        <input type="button" value="enviar!" onclick="enviar()">
+      </form>
+
+

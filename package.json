@@ -1,0 +1,20 @@
+{
+  "name": "mapainteractivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs-mate": "^3.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
